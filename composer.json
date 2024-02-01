@@ -1,0 +1,29 @@
+{
+    "name": "v1nk0/fpdi-rotate",
+    "license": "FPDF",
+    "authors": [
+        {
+            "name": "Olivier",
+            "email": "oliver@fpdf.org"
+        },
+        {
+            "name": "Vincent Sebastiaan Kooijman",
+            "email": "info@vincentkooijman.at"
+        }
+    ],
+    "description": "Rotation with FPDI",
+    "keywords": [
+        "fpdi",
+        "rotate"
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "setasign/fpdf": "^1.8",
+        "setasign/fpdi": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "V1nk0\\FpdiRotate\\": "src"
+        }
+    }
+}
